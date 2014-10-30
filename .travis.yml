@@ -1,0 +1,32 @@
+language: perl
+
+perl:
+- '5.20'
+- '5.18'
+- '5.16'
+- '5.14'
+- '5.12'
+- '5.10'
+- '5.8'
+
+install:
+- cpanm --quiet --notest
+  Inline
+  Inline::C
+
+script:
+- perl Makefile.PL
+- make test
+
+notifications:
+  irc:
+    channels:
+    - irc.perl.org#inline
+    on_success: change
+    on_failure: always
+    skip_join: true
+
+# Hack to not run on tag pushes:
+branches:
+  except:
+  - /^v?[0-9]+\.[0-9]+/
