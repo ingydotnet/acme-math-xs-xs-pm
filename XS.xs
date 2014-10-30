@@ -12,7 +12,6 @@ long subtract(long a, long b) {
 
 MODULE = Acme::Math::XS::XS  PACKAGE = Acme::Math::XS::XS
 PROTOTYPES: DISABLE
-VERSIONCHECK: DISABLE
 
 long
 add (a, b)
