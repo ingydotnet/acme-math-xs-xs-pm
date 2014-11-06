@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME => 'Acme::Math::XS::XS',
-    VERSION => '0.0.1',
+    VERSION => '0.0.2',
     ABSTRACT => 'Math is HARD (faster, old-school)',
     AUTHOR => 'Ingy döt Net <ingy@cpan.org>',
 );

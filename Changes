@@ -1,4 +1,9 @@
 ---
+version: 0.0.2
+date:    Wed Nov  5 18:58:13 PST 2014
+changes:
+- Change ReadMe.pod to README
+---
 version: 0.0.1
 date:    Thu Oct 30 20:08:50 UTC 2014
 changes:
