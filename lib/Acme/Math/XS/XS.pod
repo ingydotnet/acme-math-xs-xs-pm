@@ -14,11 +14,23 @@ Acme::Math::XS::XS - Math is HARD (faster, old-school)
 
 =head1 DESCRIPTION
 
-This is a smallest possible XS module using pure XS. It is meant to compare to L<Acme::Math::XS>, which is written using L<Inline::C>.
+B<NOTE:> This is module has been replaced by L<Acme::Math::XS>.
 
 =head1 SEE ALSO
 
-L<Acme::Math::XS>
+=over
+
+=item * L<Alt::Acme::Math::XS::EUMM>
+
+=item * L<Alt::Acme::Math::XS::DistZilla>
+
+=item * L<Alt::Acme::Math::XS::ZillaDist>
+
+=item * L<Alt::Acme::Math::XS::ModuleBuild>
+
+=item * L<Alt::Acme::Math::XS::ModuleInstall>
+
+=back
 
 =head1 AUTHORS
 
